@@ -29,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: false
-          tags: andrerampanelli/CI_course:latest
+          tags: andrerampanelli/ci_course:latest

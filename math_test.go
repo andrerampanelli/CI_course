@@ -9,3 +9,11 @@ func TestSum(t *testing.T) {
 		t.Errorf("Expected %d; Received %d", 30, total)
 	}
 }
+
+func TestSub(t *testing.T) {
+	total := sub(30, 10)
+	
+	if total != 20 {
+		t.Errorf("Expected %d; Received %d", 20, total)
+	}
+}

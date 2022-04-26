@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println(sum(10, 10))
-}
+func main() {}
 
 func sum(a int, b int) int {
 	return a + b
+}
+
+func sub(a int, b int) int {
+	return a - b
 }

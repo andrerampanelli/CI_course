@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TetSum(t *testing.T) {
+func TestSum(t *testing.T) {
 	total := sum(15, 15)
 
 	if total != 30 {
